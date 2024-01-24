@@ -1,0 +1,91 @@
+{
+    "datatypes": {
+        "answers": {
+            "a": "str",
+            "b": "int",
+            "c": "list",
+            "d": "float",
+            "a + d": "Error",
+            "c == 10.3": "bool",
+            "a + a": "str",
+            "[a]": "list",
+            "b * c": "Error",
+            "a * b": "str",
+            "a + b\"\"": "str"
+        },
+        "score": 0.2
+    },
+    "variables": {
+        "answers": {
+            "Hva skrives ut når dette programmet kjøres?": 8,
+            "Hva skrives ut når dette programmet kjøres?.1": 21
+        },
+        "score": 1
+    },
+    "bool": {
+        "answers": {
+            "100 == 100": "True",
+            "42 != 25": "False",
+            "not (100 == 100)": "False",
+            "(10*2) > 9": "True",
+            "100 >= 100": "True",
+            "99 >= 100": "False",
+            "100 != (50*2)": "False",
+            "(14/2) > 7 ": "False",
+            "(5 < 7) and (4 > 5)": "False",
+            "(3 < 7) and (7 < 9)": "True",
+            "(5 < 7) or (4 > 5)": "True",
+            "and 500 == 100": "Error",
+            "(False != False) == (True != True)": "True",
+            "(not True) or False": "False",
+            "False (not False)": "Error",
+            "True and False": "False",
+            "True and (False or True)": "True"
+        },
+        "score": 0.2
+    },
+    "conditionals": {
+        "answers": {
+            "Hva skrives ut når programmet kjøres?": "Second",
+            "Hva må vi sette inn i koden (rød strek) for at 15 skal skrives ut?": "!=",
+            "Hva skrives ut når dette programmet kjøres?.2": 15
+        },
+        "score": 1
+    },
+    "loops": {
+        "answers": {
+            "Hva skrives ut når dette programmet kjøres?.3": 21,
+            "Hva skrives ut når dette programmet kjøres?.4": 6
+        },
+        "score": 1
+    },
+    "lists": {
+        "answers": {
+            "Hva skrives ut når dette programmet kjøres?.5": 4,
+            "Hva skrives ut når dette programmet kjøres?.6": 102,
+            "Hva skrives ut når dette programmet kjøres?.7": -10
+        },
+        "score": 1
+    },
+    "functions": {
+        "answers": {
+            "Hva skrives ut når dette programmet kjøres?.8": 13,
+            "Hva skrives ut når dette programmet kjøres?.9": 100,
+            "Funksjonen over skal finne det minste elementet i en liste. Hva må skrives på linje 5 for at funksjonen skal være riktig?": "min_number = number",
+            "Hva skrives ut når dette programmet kjøres?.10": 7,
+            "Hva skrives ut når dette programmet kjøres?.11": 7,
+            "Hva skrives ut når dette programmet kjøres?.12": 10
+        },
+        "score": 1
+    },
+    "functions_part": {
+        "answers": {
+            "f(6.99)": 8.99,
+            "f(8)": 8,
+            "f(0)": 8,
+            "f(7)": 7,
+            "f(1)": 7
+        },
+        "score": 0.2
+    }
+}
