@@ -278,4 +278,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# CSV files
+*.csv
+
 # End of https://www.toptal.com/developers/gitignore/api/java,maven,eclipse,intellij+all,visualstudiocode,macos,windows
