@@ -2,6 +2,18 @@
 # Created by https://www.toptal.com/developers/gitignore/api/java,maven,eclipse,intellij+all,visualstudiocode,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,maven,eclipse,intellij+all,visualstudiocode,macos,windows
 
+*.bundle.*
+lib/
+node_modules/
+*.egg-info/
+.ipynb_checkpoints
+*.tsbuildinfo
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 ### Eclipse ###
 .metadata
 bin/
