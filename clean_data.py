@@ -62,6 +62,7 @@ column_names = {
     "Å  lære programmering er viktig for meg, fordi det vil bedre mine yrkesmuligheter.": "Work",
     "Jeg er interessert i det jeg lærer av programmering.": "Interest",
     "Programmering er viktig for meg, fordi jeg trenger det når jeg skal studere videre.": "Studies",
+    "Har du annen erfaring med programmering utenfor skole?": "OutsideExperience",
     "Hvilken annen erfaring med programmering har du utenfor skole?_1": "Outside1",
     "Hvilken annen erfaring med programmering har du utenfor skole?_2": "Outside2",
     "Hvilken annen erfaring med programmering har du utenfor skole?_3": "Outside3",
