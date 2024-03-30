@@ -170,3 +170,41 @@ institution_dict = {
     "Norges Miljø og Biovitenskapelige Universitet": nmbu,
     "Norges Miljø- og Biovitenskapelige Universitet (NMBU)": nmbu
 }
+
+column_names = {
+    "Hva er ditt kjønn?": "Gender",
+    "Hvilke studielinje/studieprogram går du?": "Studyprogram",
+    "Hvilket universitet eller høyskole går du på?": "Institution",
+    "Når fullførte du videregående skole?": "GraduateYear",
+    "Lærte du å programmere i Python i matematikkfagene?": "LearnedPython",
+    "Har du deltatt eller fullført et programmeringskurs ved universitet eller høyskole før denne testen?": "UniversityExperience",
+    "Har du fullført noen av disse programfagene?_1": "IT1",
+    "Har du fullført noen av disse programfagene?_2": "IT2",
+    "Har du fullført noen av disse programfagene?_3": "PMX",
+    "Hvilke matematikkfag fullførte du på videregående skole?_1": "P1",
+    "Hvilke matematikkfag fullførte du på videregående skole?_2": "T1",
+    "Hvilke matematikkfag fullførte du på videregående skole?_3": "P2",
+    "Hvilke matematikkfag fullførte du på videregående skole?_4": "S1",
+    "Hvilke matematikkfag fullførte du på videregående skole?_5": "S2",
+    "Hvilke matematikkfag fullførte du på videregående skole?_6": "R1",
+    "Hvilke matematikkfag fullførte du på videregående skole?_7": "R2", 
+    "Å  gjøre en innsats i programmering er viktig, fordi det vil hjelpe meg i det arbeidet jeg skal gjøre senere.": "Effort",
+    "Jeg arbeider med programmering fordi jeg liker det.": "Enjoyment",
+    "Å  lære programmering er viktig for meg, fordi det vil bedre mine yrkesmuligheter.": "Work",
+    "Jeg er interessert i det jeg lærer av programmering.": "Interest",
+    "Programmering er viktig for meg, fordi jeg trenger det når jeg skal studere videre.": "Studies",
+    "Har du annen erfaring med programmering utenfor skole?": "OutsideExperience",
+    "Hvilken annen erfaring med programmering har du utenfor skole?_1": "Outside1",
+    "Hvilken annen erfaring med programmering har du utenfor skole?_2": "Outside2",
+    "Hvilken annen erfaring med programmering har du utenfor skole?_3": "Outside3",
+    "Hvilken annen erfaring med programmering har du utenfor skole?_4": "Outside4",
+    "Hvilken annen erfaring med programmering har du utenfor skole?_5": "Outside5",
+    "Hvilken annen erfaring med programmering har du utenfor skole?_6": "Outside6",
+    "Hvilken annen erfaring med programmering har du utenfor skole?_7": "Outside7",
+    "Hvilken annen erfaring med programmering har du utenfor skole?_8": "Outside8",
+
+    # Tasks
+    "Hva skrives ut når dette programmet kjøres?": "Variables1",
+    "Hva skrives ut når dette programmet kjøres?.1": "Variables2"
+
+}

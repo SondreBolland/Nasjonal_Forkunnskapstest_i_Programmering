@@ -17,8 +17,8 @@
     },
     "variables": {
         "answers": {
-            "Hva skrives ut når dette programmet kjøres?": 8,
-            "Hva skrives ut når dette programmet kjøres?.1": 21
+            "Variables1": 8,
+            "Variables2": 21
         },
         "score": 1
     },
