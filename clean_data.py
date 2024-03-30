@@ -40,7 +40,7 @@ print("Replace all ambigious genders with standardized labels: [\'m\', \'f\'] (o
 df = pd.read_csv(filename, on_bad_lines="skip", delimiter=";", encoding="utf8")
 
 ### Rename columns ###
-df.rename(columns=data_replacements.column_names, inplace=True)
+df.rename(columns=data_replacements.new_column_names, inplace=True)
 print("Rename columns with simpler titles. Easier to use in analysis.")
 
 # Remove all institutions that are not in the list

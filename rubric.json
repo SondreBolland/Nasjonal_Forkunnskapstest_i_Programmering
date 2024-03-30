@@ -46,35 +46,35 @@
     },
     "conditionals": {
         "answers": {
-            "Hva skrives ut når programmet kjøres?": "Second",
-            "Hva må vi sette inn i koden (rød strek) for at 15 skal skrives ut?": "!=",
-            "Hva skrives ut når dette programmet kjøres?.2": 15
+            "Conditionals1": "Second",
+            "Conditionals2": "!=",
+            "Conditionals3": 15
         },
         "score": 1
     },
     "loops": {
         "answers": {
-            "Hva skrives ut når dette programmet kjøres?.3": 21,
-            "Hva skrives ut når dette programmet kjøres?.4": 6
+            "Loops1": 21,
+            "Loops2": 6
         },
         "score": 1
     },
     "lists": {
         "answers": {
-            "Hva skrives ut når dette programmet kjøres?.5": 4,
-            "Hva skrives ut når dette programmet kjøres?.6": 102,
-            "Hva skrives ut når dette programmet kjøres?.7": -10
+            "Lists1": 4,
+            "Lists2": 102,
+            "Lists3": -10
         },
         "score": 1
     },
     "functions": {
         "answers": {
-            "Hva skrives ut når dette programmet kjøres?.8": 13,
-            "Hva skrives ut når dette programmet kjøres?.9": 100,
-            "Funksjonen over skal finne det minste elementet i en liste. Hva må skrives på linje 5 for at funksjonen skal være riktig?": "min_number = number",
-            "Hva skrives ut når dette programmet kjøres?.10": 7,
-            "Hva skrives ut når dette programmet kjøres?.11": 7,
-            "Hva skrives ut når dette programmet kjøres?.12": 10
+            "Functions1": 13,
+            "Functions2": 100,
+            "Functions3": "min_number = number",
+            "Functions4": 7,
+            "Functions5": 7,
+            "Functions6": 10
         },
         "score": 1
     },

@@ -171,7 +171,7 @@ institution_dict = {
     "Norges Miljø- og Biovitenskapelige Universitet (NMBU)": nmbu
 }
 
-column_names = {
+new_column_names = {
     "Hva er ditt kjønn?": "Gender",
     "Hvilke studielinje/studieprogram går du?": "Studyprogram",
     "Hvilket universitet eller høyskole går du på?": "Institution",
@@ -205,6 +205,19 @@ column_names = {
 
     # Tasks
     "Hva skrives ut når dette programmet kjøres?": "Variables1",
-    "Hva skrives ut når dette programmet kjøres?.1": "Variables2"
-
+    "Hva skrives ut når dette programmet kjøres?.1": "Variables2",
+    "Hva skrives ut når programmet kjøres?": "Conditionals1",
+    "Hva må vi sette inn i koden (rød strek) for at 15 skal skrives ut?": "Conditionals2",
+    "Hva skrives ut når dette programmet kjøres?.2": "Conditionals3",
+    "Hva skrives ut når dette programmet kjøres?.3": "Loops1",
+    "Hva skrives ut når dette programmet kjøres?.4": "Loops2",
+    "Hva skrives ut når dette programmet kjøres?.5": "Lists1",
+    "Hva skrives ut når dette programmet kjøres?.6": "Lists2",
+    "Hva skrives ut når dette programmet kjøres?.7": "Lists3",
+    "Hva skrives ut når dette programmet kjøres?.8": "Functions1",
+    "Hva skrives ut når dette programmet kjøres?.9": "Functions2",
+    "Funksjonen over skal finne det minste elementet i en liste. Hva må skrives på linje 5 for at funksjonen skal være riktig?": "Functions3",
+    "Hva skrives ut når dette programmet kjøres?.10": "Functions4",
+    "Hva skrives ut når dette programmet kjøres?.11": "Functions5",
+    "Hva skrives ut når dette programmet kjøres?.12": "Functions6"
 }

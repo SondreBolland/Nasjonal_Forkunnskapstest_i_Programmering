@@ -54,10 +54,10 @@ with SupressSettingWithCopyWarning():
             task_points = topic["score"]
             for question in topic["answers"]:
                 try:
-                    correct_answer = topic["answers"][question]
+                    correct_answer = str(topic["answers"][question]).lower()
                     student_answer = prog_df[question][i]
                     # Cast the answer in the correct datatype
-                    student_answer = type(correct_answer)(student_answer)
+                    student_answer = str(type(correct_answer)(student_answer)).lower()
 
                     if correct_answer == student_answer:
                         points = task_points
