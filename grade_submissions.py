@@ -40,9 +40,13 @@ print("Max score:", max_score)
 result_df = df.copy()
 result_df["Total"] = None
 
-# Add topic columns
-for topic in rubric.keys():
-    result_df[str(topic)] = None
+# Add topic and point columns
+for key in rubric.keys():
+    result_df[str(key)] = None
+    topic = rubric[key]
+    for question in topic["answers"]:
+        question_points_column = question + "_points"
+        result_df[question_points_column] = None
 
 print("Submissions to be graded: " + str(len(prog_df.index)))
 with SupressSettingWithCopyWarning():
@@ -53,6 +57,7 @@ with SupressSettingWithCopyWarning():
             topic_sum = 0
             task_points = topic["score"]
             for question in topic["answers"]:
+                question_points_column = question + "_points"
                 try:
                     correct_answer = str(topic["answers"][question]).lower()
                     student_answer = prog_df[question][i]
@@ -66,12 +71,12 @@ with SupressSettingWithCopyWarning():
                     else:
                         points = 0
 
-                    result_df[question][i] = points
+                    result_df[question_points_column][i] = points
                 except KeyError:
                     continue
                 except ValueError:
                     # Cast error. Set score as zero
-                    result_df[question][i] = 0
+                    result_df[question_points_column][i] = 0
                     continue
             result_df[str(key)][i] = topic_sum
             
